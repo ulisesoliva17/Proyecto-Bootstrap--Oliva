@@ -1,0 +1,66 @@
+body {
+    background-color: white;
+}
+
+.inicio {
+    background-image: linear-gradient(to bottom, #17a2b8, white);
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.jostyck {
+    width: 60px;
+}
+
+.carousel-inner {
+    max-height: 39rem;
+}
+
+.titulo {
+    font-size: 2.5rem;
+    border-top: grey solid 5px;
+}
+
+.parrafo {
+    font-size: 1.2rem;
+}
+
+.footer {
+    background-image: linear-gradient(to top, #17a2b8, white);
+}
+
+.footer p {
+    text-align: center;
+}
+
+.iconos i {
+    font-size: 26px;
+    padding: 0 9px;
+    color: #17a2b8;
+}
+
+.fila1 {
+    border-bottom: solid black 0.1rem;
+}
+
+.fila3 {
+    border-top: solid black 0.1rem;
+}
+
+.columnas img {
+    width: 100%;
+}
+
+.link {
+    text-decoration: none;
+    color: grey;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: black;
+}

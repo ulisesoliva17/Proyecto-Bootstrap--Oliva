@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Bootstrap</title>
+</head>
+
+<body>
+    <header class="inicio">
+        <h1 class="">Aprendé Jugando</h1>
+    </header>
+    <main class="container">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html"><img src="./imagenes/jostyck.png" class="jostyck" alt=""></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">TEMAS</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./pages/flexbox.html">FLEXBOX</a></li>
+                    <li><a class="dropdown-item" href="./pages/grid.html">GRID</a></li>
+                    <li><a class="dropdown-item" href="./pages/bootstrap.html">BOOTSTRAP</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./index.html">HOME</a>
+            </li>
+        </ul>
+        <!---------------------------------------------Ubicacion---------------------------------------------------->
+        <div class="row fila1 mb-5">
+            <div class="col-12 bg-info mt-5">
+                <h2 class="p-3 fs-3 text-light text-center">
+                    Home
+                </h2>
+            </div>
+        </div>
+        <div class="text-center mb-3">
+            <h2>
+                Aprender jugando es mucho mas divertido 💡😛
+            </h2>
+        </div>
+        <!---------------------------------------------Carrusel---------------------------------------------------->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./imagenes/albert.jpg" class="d-block w-100" alt="Albert">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagenes/flexgame.png" class="d-block w-100" alt="FlexGame">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagenes/gridgame.png" class="d-block w-100" alt="GridGame">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+        </div>
+        <!--------------------------------------------------------------------------------------------------------->
+        <section class="texto pt-5 w-50 mx-auto text-center">
+            <h1 class="titulo p-3">Una pagina que almacena los <span class="text-info">juegos</span> que sirven par aprender
+                <h1>
+                    <p class="parrafo">
+                        Intentamos facilitar el aprendizaje del desarrollo web por medio de juegos que nos faciliten la visualizacion rapida de lo que debemos entender
+                    </p>
+        </section>
+        <!--------------------------------------------------------------------------------------------------------->
+        <div class="row m-4 pt-4">
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center">
+                <img src="./imagenes/imgfelx.png" alt="grid" width="180" height="160">
+                <div>
+                    <h3 class="p-3">Desarrollo</h3>
+                    <p class="p-4">Desarrollo web</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12  d-flex justify-content-center">
+                <img src="./imagenes/imggrid.jpg" alt="grid" width="180" height="160">
+                <div>
+                    <h3 class="p-3">Desarrollo</h3>
+                    <p class="p-4">Desarrollo web</p>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class=" w-50 m-auto text-center mb-5">
+                <h1 class="mb-5 fs-2">La mejor forma de aprender es <span class="text-info">conociendonos</span></h1>
+                <p class="fs-4">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, quidem. Quaerat voluptas voluptates amet delectus consectetur iusto quasi adipisci, quos fuga iste ad optio neque provident cumque omnis beatae dolorum sapiente cum tempore temporibus consequatur
+                    voluptatibus! Dolorum, consectetur impedit? Repellat velit ex eos, tempora sunt qui eius tempore dolorum ipsam?
+                </p>
+                <img src="./imagenes/aprendisaje.png" class="container-fluid" alt="">
+            </div>
+        </section>
+    </main>
+    <footer class="footer w-100 d-flex align-items justify-content-center flex-wrap">
+        <p class="fs-5 px-3 pt-3">Todos los derechos reservados</p>
+        <div class="iconos">
+            <a href="#"><i class="bi bi-instagram"></i></i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+        </div>
+    </footer>
+    <script src=" https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js " integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js " integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13 " crossorigin="anonymous "></script>
+</body>
+
+</html>
